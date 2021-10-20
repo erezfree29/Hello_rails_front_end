@@ -6,7 +6,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect, useState } from 'react';
-import { getMessages } from '../redux/Greeting';
+import { getMessages } from './redux/Greeting';
 
 const Greeting = () => {
   const messages = useSelector((state) => state.greetingReducer);
